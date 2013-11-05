@@ -1,0 +1,19 @@
+{
+  "name": "editable-placeholder",
+  "repo": "yields/editable-placeholder",
+  "description": "Editable placeholder.",
+  "version": "0.1.1",
+  "keywords": ["editable", "placeholder"],
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "classes-component": "component/classes",
+    "events-component-2": "juliangruber/events-1#browserify",
+    "raf-component": "component/raf"
+  },
+  "browser": {
+    "classes": "classes-component",
+    "events": "events-component-2",
+    "raf": "raf-component"
+  }
+}
